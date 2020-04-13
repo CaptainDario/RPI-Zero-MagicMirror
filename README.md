@@ -33,6 +33,8 @@ I used as a reference (this guide)[http://emmanuelcontreras.com/how-to/how-to-cr
 
 1. download [Raspbian Lite](https://www.raspberrypi.org/downloads/raspbian/)
 2. flash image to SD-card (I used [Balena Etcher](https://www.balena.io/etcher/))
+2. create "SSH"-file on the boot-partition of the SD-card
+3. **WIFI config via text file**
 
 
 ## Modules
