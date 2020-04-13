@@ -39,7 +39,12 @@ I used as a reference [this guide](http://emmanuelcontreras.com/how-to/how-to-cr
 
 ## Modules
 
-* [Turn on and off the monitor via the relay](https://github.com/paviro/MMM-PIR-Sensor)
+### Turn on and off the mirror with the sensor:
+ * [1st option](https://github.com/paviro/MMM-PIR-Sensor) (Did not get this working)
+ 
+ * [2nd option](https://github.com/mboskamp/MMM-PIR) (setup as described in the link and used the 'toggle_relay.py' as callback script)
+
+
 * [Other modules](https://github.com/MichMich/MagicMirror/wiki/3rd-Party-Modules)
 
 
