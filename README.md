@@ -23,6 +23,9 @@ Total: 11€ + 5€ + 1€ + 2€ + 1€ + 1€ + 10€ + 0-10€ + 2€ + 5€ 
 
 To setup the hardware follow [this video](www.youtube.com).
 
+RPi ZeroW Pinout:
+![RPi Zero W Pinout image not found](https://github.com/CaptainDario/RPI-Zero-MagicMirror/blob/master/rpiZW_pins.png "Logo Title Text 1")
+
 ## Installing the OS on the RPI 0W
 
 I used as a reference (this guide)[http://emmanuelcontreras.com/how-to/how-to-create-a-magic-mirror-2-with-pi-zero-w/] however I need to change some things
