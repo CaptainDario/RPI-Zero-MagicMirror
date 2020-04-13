@@ -29,7 +29,7 @@ RPi ZeroW Pinout:
 
 ## Installing the OS on the RPI 0W
 
-I used as a reference (this guide)[http://emmanuelcontreras.com/how-to/how-to-create-a-magic-mirror-2-with-pi-zero-w/] however I need to change some things
+I used as a reference [this guide](http://emmanuelcontreras.com/how-to/how-to-create-a-magic-mirror-2-with-pi-zero-w/) however I need to change some things
 
 1. download [Raspbian Lite](https://www.raspberrypi.org/downloads/raspbian/)
 2. flash image to SD-card (I used [Balena Etcher](https://www.balena.io/etcher/))
