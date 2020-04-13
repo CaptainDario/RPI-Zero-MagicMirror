@@ -11,11 +11,13 @@ This guide will explain how to set up the MagicMirror2 OS on a raspberry pi zero
   * [5v Relay](https://www.aliexpress.com/item/32969889587.html?spm=a2g0o.productlist.0.0.12d12f09ujISno&algo_pvid=617edfee-1041-4329-b242-70a5c9148285&algo_expid=617edfee-1041-4329-b242-70a5c9148285-1&btsid=0ab50f6215867803297066531e46cc&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_) - ~1€
   * [ikea Ribba frame at least 50x50cm](https://www.ikea.com/de/de/cat/ribba-serie-16456/) - ~10€
   * old monitor (or find one on ebay kleinanzeigen/craigslist/etc...) - ~0€-10€
-  * [some cables for soldering]() - 
-  * (5v PSU)
-  * ()
+  * [5v PSU](https://www.aliexpress.com/item/33008360777.html?spm=a2g0o.productlist.0.0.6aa67977TpXVsT&algo_pvid=e99d80ef-c883-439f-b3f7-81f06a91c2a6&algo_expid=e99d80ef-c883-439f-b3f7-81f06a91c2a6-0&btsid=0ab6f81615867816964263103e5a42&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_) - ~2€
+  * if you do not have this lying around:
+   * [some cables for soldering](https://www.aliexpress.com/item/4000197988123.html?spm=a2g0o.productlist.0.0.150f50f3s6cX67&algo_pvid=f45e848a-ba02-4de6-a01b-d48181557d3b&algo_expid=f45e848a-ba02-4de6-a01b-d48181557d3b-6&btsid=0ab6fb8315867817791791856e45de&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_) - ~5€
+   * wood to cover the back of the frame (I used the 50x50cm RIBBA) - ~2€
+   * maybe some wood to secure the display in place - (~2€)
 
-Total: 11€ + 1€ + 2€ + 1€ + 1€ + 10€ + 0-10€ = ~40€
+Total: 11€ + 1€ + 2€ + 1€ + 1€ + 10€ + 0-10€ + 2€ + 5€ + 2€ + 2€ = ~40-50€
 
 To setup the mirrors hardware follow this [video](www.youtube.com)
 
