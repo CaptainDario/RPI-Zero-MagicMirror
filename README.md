@@ -1,6 +1,6 @@
 # RPI-Zero-MagicMirror for ~40€
 A 40€ Magic mirror using a raspberry pi zero W.
-Prices always fluctuate a little bit. Therefore when you are reading this it is more like 45€.
+Prices always fluctuate a little bit. Therefore when you are reading this it could be like 45-50€.
 This guide will explain how to set up the MagicMirror2 OS on a raspberry pi zero.
 
 ## Hardware required for the Mirror:
@@ -43,11 +43,13 @@ I used as a reference [this guide](http://emmanuelcontreras.com/how-to/how-to-cr
 
 ### Turn on and off the mirror with the sensor:
  * [1st option](https://github.com/paviro/MMM-PIR-Sensor) (Did not get this working)
- 
  * [2nd option](https://github.com/mboskamp/MMM-PIR) (setup as described in the link and used the 'toggle_relay.py' as callback script)
 
+### show guest wifi credentials and QR-code
+  * [Shows a QR-code and wifi SSID and pwd](https://github.com/TeraTech/MMM-WiFiPassword)
 
-* [Other modules](https://github.com/MichMich/MagicMirror/wiki/3rd-Party-Modules)
+### Other modules
+* [complete official list](https://github.com/MichMich/MagicMirror/wiki/3rd-Party-Modules)
 
 
 
