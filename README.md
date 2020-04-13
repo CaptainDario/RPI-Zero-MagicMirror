@@ -25,6 +25,7 @@ To setup the hardware follow [this video](www.youtube.com).
 
 RPi ZeroW Pinout:
 ![RPi Zero W Pinout image not found](https://github.com/CaptainDario/RPI-Zero-MagicMirror/blob/master/rpiZW_pins.png "Logo Title Text 1")
+[source](https://www.raspberrypi-spy.co.uk/2012/06/simple-guide-to-the-rpi-gpio-header-and-pins/#prettyPhoto)
 
 ## Installing the OS on the RPI 0W
 
