@@ -25,16 +25,18 @@ To setup the hardware follow [this video](www.youtube.com).
 
 RPi ZeroW Pinout:
 ![RPi Zero W Pinout image not found](https://github.com/CaptainDario/RPI-Zero-MagicMirror/blob/master/rpiZW_pins.png "Logo Title Text 1")
-[source](https://www.raspberrypi-spy.co.uk/2012/06/simple-guide-to-the-rpi-gpio-header-and-pins/#prettyPhoto)
+[source](https://raspberrypi.stackexchange.com/questions/83610/gpio-pinout-orientation-raspberypi-zero-w)
 
 ## Installing the OS on the RPI 0W
 
 I used as a reference [this guide](http://emmanuelcontreras.com/how-to/how-to-create-a-magic-mirror-2-with-pi-zero-w/) however I need to change some things
 
 1. download [Raspbian Lite](https://www.raspberrypi.org/downloads/raspbian/)
-2. flash image to SD-card (I used [Balena Etcher](https://www.balena.io/etcher/))
-2. create "SSH"-file on the boot-partition of the SD-card
-3. **WIFI config via text file**
+1. flash image to SD-card (I used [Balena Etcher](https://www.balena.io/etcher/))
+1. create "SSH"-file on the boot-partition of the SD-card
+1. **WIFI config via text file**
+1. To atart the browser and show the mirror after boot up follow [this guide](https://github.com/MichMich/MagicMirror/wiki/Auto-Starting-MagicMirror)
+
 
 
 ## Modules
