@@ -29,3 +29,11 @@ I used as a reference (this guide)[http://emmanuelcontreras.com/how-to/how-to-cr
 
 1. download [Raspbian Lite](https://www.raspberrypi.org/downloads/raspbian/)
 2. flash image to SD-card (I used [Balena Etcher](https://www.balena.io/etcher/))
+
+
+## Modules
+
+* [Turn on and off the monitor via the relay](https://github.com/paviro/MMM-PIR-Sensor)
+* [Other modules](https://github.com/MichMich/MagicMirror/wiki/3rd-Party-Modules)
+
+## Toggle relay via Home Assistant
