@@ -40,7 +40,6 @@ I used as a reference (this guide)[http://emmanuelcontreras.com/how-to/how-to-cr
 ## Modules
 
 * [Turn on and off the monitor via the relay](https://github.com/paviro/MMM-PIR-Sensor)
-  * do not forget to install the dependencies (npm install wiring-pi)
 * [Other modules](https://github.com/MichMich/MagicMirror/wiki/3rd-Party-Modules)
 
 
