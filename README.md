@@ -21,7 +21,7 @@ This guide will explain how to set up the MagicMirror2 OS on a raspberry pi zero
 
 Total: 11€ + 5€ + 1€ + 2€ + 1€ + 1€ + 10€ + 0-10€ + 2€ + 5€ + 2€ + 2€ = ~40-50€
 
-To setup the mirrors hardware follow this [video](www.youtube.com)
+To setup the hardware follow [this video](www.youtube.com).
 
 ## Installing the OS on the RPI 0W
 
