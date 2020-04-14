@@ -50,7 +50,10 @@ I used as a reference [this guide](http://emmanuelcontreras.com/how-to/how-to-cr
      * change (line 1, displayOn.sh) from "" to "vcgencmd display_power 1"
      * change (line 1, displayOff.sh) from "" to "vcgencmd display_power 0"
    * To toggle the relay:
-     * python install RPi.GPIO
+     * install pip:
+       * sudo apt-get install python3-pip
+     * install RPi.GPIO:
+       * python3 -m pip install RPi
 ### Show guest wifi credentials and QR-code
   * [Shows a QR-code and wifi SSID and pwd](https://github.com/TeraTech/MMM-WiFiPassword)
 
