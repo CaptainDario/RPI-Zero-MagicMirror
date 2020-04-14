@@ -53,6 +53,9 @@ I used as a reference [this guide](http://emmanuelcontreras.com/how-to/how-to-cr
      * install RPi.GPIO:
        * python3 -m pip install RPi
      * run "setRelayPin.py" at startup
+       * cp setRelayPin.py /etc/init.d/
+       * cp setRelayPin.sh /etc/init.d/
+       * chmod +x /etc/init.d/setRelayPin.sh
 ### Show guest wifi credentials and QR-code
   * [Shows a QR-code and wifi SSID and pwd](https://github.com/TeraTech/MMM-WiFiPassword)
 
