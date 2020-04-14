@@ -47,10 +47,10 @@ I used as a reference [this guide](http://emmanuelcontreras.com/how-to/how-to-cr
  * [2nd option](https://github.com/mboskamp/MMM-PIR) (setup as described in the link and used the 'toggle_relay.py' as callback script)
    * I had to follow [this suggestion](https://github.com/mboskamp/MMM-PIR/issues/10#issuecomment-519239401) to turn hdmi off:
      * in ~/MagicMirror/modules/MMM-PIR/callbackScripts/default/ the files "displayOff.sh" and "displayOff.sh" had to be slightly modified
-     * change (line 1 displayOn.sh) "" to "vcgencmd display_power 1"
-     * change (line 1 displayOff.sh) from "" to "vcgencmd display_power 0"
+     * change (line 1, displayOn.sh) from "" to "vcgencmd display_power 1"
+     * change (line 1, displayOff.sh) from "" to "vcgencmd display_power 0"
    * To toggle the relay:
-     *
+     * python install RPi.GPIO
 ### show guest wifi credentials and QR-code
   * [Shows a QR-code and wifi SSID and pwd](https://github.com/TeraTech/MMM-WiFiPassword)
 
