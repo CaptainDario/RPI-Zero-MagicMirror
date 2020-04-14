@@ -54,7 +54,7 @@ I used as a reference [this guide](http://emmanuelcontreras.com/how-to/how-to-cr
        * sudo apt-get install python3-pip
      * install RPi.GPIO:
        * python3 -m pip install RPi
-     * run "setRelayPin.py" at startup ([choose one you like](https://www.dexterindustries.com/howto/run-a-program-on-your-raspberry-pi-at-startup/))
+     
      
 ### Show guest wifi credentials and QR-code
   * [Shows a QR-code and wifi SSID and pwd](https://github.com/TeraTech/MMM-WiFiPassword)
