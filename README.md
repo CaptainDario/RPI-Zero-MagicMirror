@@ -46,7 +46,7 @@ I used as a reference [this guide](http://emmanuelcontreras.com/how-to/how-to-cr
  * [1st option](https://github.com/paviro/MMM-PIR-Sensor) (Did not get this working)
  * [2nd option](https://github.com/mboskamp/MMM-PIR) (setup as described in the link and used the 'toggle_relay.py' as callback script)
    * I had to follow [this suggestion](https://github.com/mboskamp/MMM-PIR/issues/10#issuecomment-519239401) to turn hdmi off/on:
-     * in ~/MagicMirror/modules/MMM-PIR/callbackScripts/default/ the files "displayOff.sh" and "displayOff.sh" had to be slightly modified (look at the provided files)
+     * in ~/MagicMirror/modules/MMM-PIR/callbackScripts/default/ the files "displayOff.sh" and "displayOn.sh" had to be slightly modified (look at the provided files)
    * To toggle the relay:
      * install pip:
        * sudo apt-get install python3-pip
