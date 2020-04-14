@@ -54,6 +54,7 @@ I used as a reference [this guide](http://emmanuelcontreras.com/how-to/how-to-cr
        * sudo apt-get install python3-pip
      * install RPi.GPIO:
        * python3 -m pip install RPi
+     * move the turnOn/OffRelay python scripts to the ~/MagicMirror folder
      
      
 ### Show guest wifi credentials and QR-code
