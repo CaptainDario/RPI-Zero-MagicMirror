@@ -1,4 +1,4 @@
-# RPI-Zero-MagicMirror for ~40€
+# RPI-Zero-MagicMirror for ~50€
 A 40€ Magic mirror using a raspberry pi zero W.
 Prices always fluctuate a little bit. Therefore when you are reading this it could be like 45-50€.
 This guide will explain how to set up the MagicMirror2 OS on a raspberry pi zero.
@@ -19,8 +19,10 @@ This guide will explain how to set up the MagicMirror2 OS on a raspberry pi zero
     * wood to cover the back of the frame (I used the 50x50cm RIBBA) - ~2€
     * maybe some wood to secure the display in place - (~2€)
   * (PIR motion sensor)[https://www.aliexpress.com/item/1877185512.html?spm=a2g0s.9042311.0.0.27424c4dvxv2Pn]
+  * mirror foil - ~10€
+  
 
-Total: 11€ + 5€ + 1€ + 2€ + 1€ + 1€ + 10€ + 0-10€ + 2€ + 5€ + 2€ + 2€ = ~40-50€
+Total: 11€ + 5€ + 1€ + 2€ + 1€ + 1€ + 10€ + 0-10€ + 2€ + 5€ + 2€ + 2€ + 10€ = ~50-60€
 
 To setup the hardware follow [this video](www.youtube.com).
 
