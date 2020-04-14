@@ -3,7 +3,7 @@ A 40€ Magic mirror using a raspberry pi zero W.
 Prices always fluctuate a little bit. Therefore when you are reading this it could be like 45-50€.
 This guide will explain how to set up the MagicMirror2 OS on a raspberry pi zero.
 
-## Hardware required for the Mirror:
+## Hardware required for the Mirror (tools not included):
 
   * [Raspberry pi zero W](https://www.berrybase.de/raspberry-pi-zero-w) - ~11€
   * [Micro SD-card 16GB](https://www.ebay.de/i/273535152997?chn=ps&norover=1&mkevt=1&mkrid=707-134425-41852-0&mkcid=2&itemid=273535152997&targetid=888516359244&device=c&mktype=pla&googleloc=9068150&poi=&campaignid=1669295758&mkgroupid=90992276282&rlsatarget=pla-888516359244&abcId=1139676&merchantid=7364532&gclid=EAIaIQobChMIppr__Lfl6AIVRrDtCh1c8QtqEAQYAiABEgLwsPD_BwE) - 5€
