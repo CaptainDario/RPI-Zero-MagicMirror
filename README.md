@@ -36,43 +36,33 @@ I used as a reference [this guide](http://emmanuelcontreras.com/how-to/how-to-cr
 
 1. download [Raspbian Lite](https://www.raspberrypi.org/downloads/raspbian/)
 1. flash image to SD-card (I used [Balena Etcher](https://www.balena.io/etcher/))
-1. create "SSH"-file on the boot-partition of the SD-card
-1. create a file called: "wpa_supplicant.conf" and put the follwoing code in there (replace "YOUR_SSID" and "YOUR_WIFI_PASSWORD")
-```
-ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
-network={
-    ssid="YOUR_SSID"
-    psk="YOUR_WIFI_PASSWORD"
-    key_mgmt=WPA-PSK
-}
-```
-1. Install Node.js
+2. copy "SSH" and "wpa_supplicant.conf" to the boot-partition of the SD-card (don not forget to change the placeholders in "wpa_supplicant.conf")
+3. Install Node.js
   1. ``` sudo wget https://nodejs.org/dist/v10.16.0/node-v10.16.0-linux-armv6l.tar.xz ```
-  1. ```tar xvf node-v10.16.0-linux-armv6l.tar.xz```
-  1. ```cd node-v8.3.0-linux-armv6l```
-  1. ```sudo cp -R * /usr/local/```
-  1. ```sudo reboot```
-1. ```sudo apt install npm```
-1. ```sudo apt install git```
-1. Install MagicMirror:
-  1. ```git clone https://github.com/MichMich/MagicMirror```
+  2. ```tar xvf node-v10.16.0-linux-armv6l.tar.xz```
+  3. ```cd node-v8.3.0-linux-armv6l```
+  4. ```sudo cp -R * /usr/local/```
+  5. ```sudo reboot```
+4. ```sudo apt install npm```
+5. ```sudo apt install git```
+6. Install MagicMirror:
+  6. ```git clone https://github.com/MichMich/MagicMirror```
   1. ```cd MagicMirror```
-  1. ```npm install –arch=armv7l ```
-1. ```sudo apt install chromium-browser```
-1. ```sudo raspi-config```
-  1. ```Boot Options```
-  1. ```B1 Desktop/CLI```
-  1. ```B2 Console Autologin```
-1. ```sudo apt-get install xinit```
-1. ```sudo apt install xorg```
-1. ```sudo apt install matchbox```
-1. ```sudo apt install unclutter```
-1. ``````
-1. ``````
-1. ``````
-1. ``````
+  2. ```npm install –arch=armv7l ```
+7. ```sudo apt install chromium-browser```
+8. ```sudo raspi-config```
+  3. ```Boot Options```
+  4. ```B1 Desktop/CLI```
+  5. ```B2 Console Autologin```
+9. ```sudo apt-get install xinit```
+10. ```sudo apt install xorg```
+11. ```sudo apt install matchbox```
+12. ```sudo apt install unclutter```
+13. copy "chromium_start.sh" and "mmstart.sh" to your homefolder
+14. ```sudo chmod a+x ~/mmstart.sh```
+15. ```sudo chmod a+x ~/chromium_start.sh```
 
-1. To start the browser and show the mirror after boot up follow [this guide](https://github.com/MichMich/MagicMirror/wiki/Auto-Starting-MagicMirror)
+17. To start the browser and show the mirror after boot up follow [this guide](https://github.com/MichMich/MagicMirror/wiki/Auto-Starting-MagicMirror)
 
 
 ## Installing Modules
