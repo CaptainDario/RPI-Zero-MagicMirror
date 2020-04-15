@@ -90,5 +90,5 @@ I used as a reference [this guide](http://emmanuelcontreras.com/how-to/how-to-cr
 ## Helpful
 
 [Check config](https://forum.magicmirror.builders/topic/5399/how-to-check-your-config-for-errors-for-absolute-beginners):
-    * goto your MagicMirror folder
-    * ```npm run config:check```
+* goto your MagicMirror folder
+* ```npm run config:check```
