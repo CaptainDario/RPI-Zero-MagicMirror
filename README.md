@@ -52,11 +52,25 @@ network={
   1. ```cd node-v8.3.0-linux-armv6l```
   1. ```sudo cp -R * /usr/local/```
   1. ```sudo reboot```
+1. ```sudo apt install npm```
+1. ```sudo apt install git```
+1. Install MagicMirror:
+  1. ```git clone https://github.com/MichMich/MagicMirror```
+  1. ```cd MagicMirror```
+  1. ```npm install –arch=armv7l ```
+1. ```sudo apt install chromium-browser```
+1. ```sudo raspi-config```
+  1. ```Boot Options```
+  1. ```B1 Desktop/CLI```
+  1. ```B2 Console Autologin```
+1. ```sudo apt-get install xinit```
+1. ```sudo apt install xorg```
+1. ```sudo apt install matchbox```
+1. ```sudo apt install unclutter```
 1. ``````
 1. ``````
 1. ``````
 1. ``````
-
 
 1. To start the browser and show the mirror after boot up follow [this guide](https://github.com/MichMich/MagicMirror/wiki/Auto-Starting-MagicMirror)
 
