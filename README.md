@@ -47,11 +47,11 @@ network={
 }
 ```
 1. Install Node.js
- 1. ``` sudo wget https://nodejs.org/dist/v10.16.0/node-v10.16.0-linux-armv6l.tar.xz ```
- 1. ```tar xvf node-v10.16.0-linux-armv6l.tar.xz```
- 1. ```cd node-v8.3.0-linux-armv6l```
- 1. ```sudo cp -R * /usr/local/```
- 1. ```sudo reboot```
+  1. ``` sudo wget https://nodejs.org/dist/v10.16.0/node-v10.16.0-linux-armv6l.tar.xz ```
+  1. ```tar xvf node-v10.16.0-linux-armv6l.tar.xz```
+  1. ```cd node-v8.3.0-linux-armv6l```
+  1. ```sudo cp -R * /usr/local/```
+  1. ```sudo reboot```
 1. ``````
 1. ``````
 1. ``````
