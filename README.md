@@ -51,9 +51,9 @@ I used as a reference [this guide](http://emmanuelcontreras.com/how-to/how-to-cr
     3. ```npm install –arch=armv7l ```
 7. ```sudo apt install chromium-browser```
 8. ```sudo raspi-config```
-    1. ```Boot Options```
-    2. ```B1 Desktop/CLI```
-    3. ```B2 Console Autologin```
+    1. ``` -> Boot Options```
+    2. ``` -> B1 Desktop/CLI```
+    3. ``` -> B2 Console Autologin```
 9. ```sudo apt-get install xinit```
 10. ```sudo apt install xorg```
 11. ```sudo apt install matchbox```
