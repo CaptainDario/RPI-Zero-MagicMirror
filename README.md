@@ -81,6 +81,7 @@ I used as a reference [this guide](http://emmanuelcontreras.com/how-to/how-to-cr
      
 ### Show guest wifi credentials and QR-code
   * [Shows a QR-code and wifi SSID and pwd](https://github.com/TeraTech/MMM-WiFiPassword)
+  * [Show a microsoft To-Do-List](https://github.com/thobach/MMM-MicrosoftToDo)
 
 ### Other modules
 * [complete official list](https://github.com/MichMich/MagicMirror/wiki/3rd-Party-Modules)
