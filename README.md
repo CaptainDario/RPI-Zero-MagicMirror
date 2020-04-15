@@ -38,11 +38,11 @@ I used as a reference [this guide](http://emmanuelcontreras.com/how-to/how-to-cr
 1. flash image to SD-card (I used [Balena Etcher](https://www.balena.io/etcher/))
 2. copy "SSH" and "wpa_supplicant.conf" to the boot-partition of the SD-card (don not forget to change the placeholders in "wpa_supplicant.conf")
 3. Install Node.js
-  1. ``` sudo wget https://nodejs.org/dist/v10.16.0/node-v10.16.0-linux-armv6l.tar.xz ```
-  2. ```tar xvf node-v10.16.0-linux-armv6l.tar.xz```
-  3. ```cd node-v8.3.0-linux-armv6l```
-  4. ```sudo cp -R * /usr/local/```
-  5. ```sudo reboot```
+    1. ``` sudo wget https://nodejs.org/dist/v10.16.0/node-v10.16.0-linux-armv6l.tar.xz ```
+    2. ```tar xvf node-v10.16.0-linux-armv6l.tar.xz```
+    3. ```cd node-v8.3.0-linux-armv6l```
+    4. ```sudo cp -R * /usr/local/```
+    5. ```sudo reboot```
 4. ```sudo apt install npm```
 5. ```sudo apt install git```
 6. Install MagicMirror:
