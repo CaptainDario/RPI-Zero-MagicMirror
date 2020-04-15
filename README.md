@@ -46,9 +46,19 @@ network={
     key_mgmt=WPA-PSK
 }
 ```
-1. To atart the browser and show the mirror after boot up follow [this guide](https://github.com/MichMich/MagicMirror/wiki/Auto-Starting-MagicMirror)
-1. ``` sudo wget https://nodejs.org/dist/v10.16.0/node-v10.16.0-linux-armv6l.tar.xz ```
+1. Install Node.js
+ 1. ``` sudo wget https://nodejs.org/dist/v10.16.0/node-v10.16.0-linux-armv6l.tar.xz ```
+ 1. ```tar xvf node-v10.16.0-linux-armv6l.tar.xz```
+ 1. ```cd node-v8.3.0-linux-armv6l```
+ 1. ```sudo cp -R * /usr/local/```
+ 1. ```sudo reboot```
+1. ``````
+1. ``````
+1. ``````
+1. ``````
 
+
+1. To start the browser and show the mirror after boot up follow [this guide](https://github.com/MichMich/MagicMirror/wiki/Auto-Starting-MagicMirror)
 
 
 ## Installing Modules
