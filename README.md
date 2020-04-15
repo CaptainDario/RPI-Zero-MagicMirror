@@ -32,12 +32,20 @@ RPi ZeroW Pinout:
 
 ## Installing the OS on the RPI 0W
 
-I used as a reference [this guide](http://emmanuelcontreras.com/how-to/how-to-create-a-magic-mirror-2-with-pi-zero-w/) however I need to change some things
+I used as a reference [this guide](http://emmanuelcontreras.com/how-to/how-to-create-a-magic-mirror-2-with-pi-zero-w/) however I need to make some changes. Also somethings were unclear to me. But he provides a ready made image that you can use to skip over all the steps described here (I did not test the image).
 
 1. download [Raspbian Lite](https://www.raspberrypi.org/downloads/raspbian/)
 1. flash image to SD-card (I used [Balena Etcher](https://www.balena.io/etcher/))
 1. create "SSH"-file on the boot-partition of the SD-card
-1. **WIFI config via text file**
+1. create a file called: "wpa_supplicant.conf" and put the follwoing code in there (replace "YOUR_SSID" and "YOUR_WIFI_PASSWORD")
+```
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+network={
+    ssid="YOUR_SSID"
+    psk="YOUR_WIFI_PASSWORD"
+    key_mgmt=WPA-PSK
+}
+```
 1. To atart the browser and show the mirror after boot up follow [this guide](https://github.com/MichMich/MagicMirror/wiki/Auto-Starting-MagicMirror)
 
 
