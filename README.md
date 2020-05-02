@@ -67,6 +67,8 @@ I used as a reference [this guide](http://emmanuelcontreras.com/how-to/how-to-cr
 ## Installing Modules
 
 ### Turn on and off the mirror with the PIR-sensor:
+I used pin 23 for the relay and pin 22 for the IR-sensor (BCM layout).
+
  * [1st option](https://github.com/paviro/MMM-PIR-Sensor) (Did not get this working)
  * [2nd option](https://github.com/mboskamp/MMM-PIR) (setup as described in the link and used the 'toggle_relay.py' as callback script)
    * I had to follow [this suggestion](https://github.com/mboskamp/MMM-PIR/issues/10#issuecomment-519239401) to turn hdmi off/on:
