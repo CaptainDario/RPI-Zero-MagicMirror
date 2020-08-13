@@ -24,7 +24,6 @@ This guide will explain how to set up the MagicMirror2 OS on a raspberry pi zero
 
 Total: 11€ + 5€ + 1€ + 2€ + 1€ + 1€ + 10€ + 0-10€ + 2€ + 5€ + 2€ + 2€ + 10€ = ~50-60€
 
-To setup the hardware follow [this video](www.youtube.com).
 
 RPi ZeroW Pinout (BCM numbering is the same as the number behind GPIO):
 ![RPi Zero W Pinout image not found](https://github.com/CaptainDario/RPI-Zero-MagicMirror/blob/master/rpiZW_pins.png "Logo Title Text 1")
