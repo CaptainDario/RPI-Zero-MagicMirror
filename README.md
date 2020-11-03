@@ -87,8 +87,6 @@ I used pin 23 for the relay and pin 22 for the IR-sensor (BCM layout).
 ### Other modules
 * [complete official list](https://github.com/MichMich/MagicMirror/wiki/3rd-Party-Modules)
 
-## Toggle relay via Home Assistant
-
 ## Helpful
 
 [Check config](https://forum.magicmirror.builders/topic/5399/how-to-check-your-config-for-errors-for-absolute-beginners):
